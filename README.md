@@ -1,2 +1,3 @@
 # PaperMakeSystem
-基于SSH框架的在线制卷系统
+基于SSH框架的在线制卷系统<br>
+完成度40%，准备转用moodle，小概率更新...

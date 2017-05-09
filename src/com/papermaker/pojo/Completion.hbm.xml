@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.papermaker.pojo.Completion" table="completion" schema="papermaker">
+        <id name="id" column="ID"/>
+        <property name="content" column="CONTENT"/>
+        <property name="image1" column="IMAGE1"/>
+        <property name="answer" column="ANSWER"/>
+        <property name="image2" column="IMAGE2"/>
+        <property name="testpoint1" column="TESTPOINT1"/>
+        <property name="testpoint2" column="TESTPOINT2"/>
+        <property name="testpoint3" column="TESTPOINT3"/>
+        <property name="weight" column="WEIGHT"/>
+        <property name="score" column="SCORE"/>
+        <property name="count" column="COUNT"/>
+        <property name="time" column="TIME"/>
+        <property name="userid" column="USERID"/>
+        <property name="courseid" column="COURSEID"/>
+        <property name="type" column="TYPE"/>
+    </class>
+</hibernate-mapping>

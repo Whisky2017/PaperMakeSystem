@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.papermaker.pojo.Parameter3" table="parameter3" schema="papermaker">
+        <id name="id" column="ID"/>
+        <property name="drawP1" column="DRAW_P1"/>
+        <property name="drawP2" column="DRAW_P2"/>
+        <property name="drawP3" column="DRAW_P3"/>
+        <property name="comP1" column="COM_P1"/>
+        <property name="comP2" column="COM_P2"/>
+        <property name="comP3" column="COM_P3"/>
+        <property name="algP1" column="ALG_P1"/>
+        <property name="algP2" column="ALG_P2"/>
+        <property name="algP3" column="ALG_P3"/>
+        <property name="paramid" column="PARAMID"/>
+    </class>
+</hibernate-mapping>

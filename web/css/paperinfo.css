@@ -1,0 +1,90 @@
+@media screen and (min-width: 992px) {
+    body,
+    html {
+        /*background: url(../image/paperinfoinputbg.jpg) no-repeat fixed 0 0;*/
+        background-size: 100%;
+    }
+    .header {
+        height: 60px;
+        background: #1f69ac;
+        width: 100%;
+    }
+    .header .headerb {
+        height: 60px;
+        background: #1f69ac;
+        width: 1200px;
+        overflow: hidden;
+        margin: auto;
+    }
+    .header .headerb .logo {
+        width: 69px;
+        height: 60px;
+        float: left;
+        background: url(../image/logo.gif) no-repeat;
+    }
+    .header .headerb .logo img{
+        width:69px;
+        height: 60px;
+        float: left;
+    }
+
+    .header .headerb .headern {
+        height: 44px;
+        line-height: 44px;
+        color: #fff;
+        margin-top: 8px;
+        margin-left: 10px;
+        padding-left: 10px;
+        border-left: 1px solid #7c8b99;
+        float: left;
+        overflow: hidden;
+        font-size: 26px;
+    }
+
+    .header .headerb .return {
+        height: 44px;
+        line-height: 44px;
+        color:#fff;
+        margin-top: 8px;
+        margin-left: 10px;
+        padding-left: 10px;
+        border-left: 1px solid #7c8b99;
+        float: right;
+        overflow: hidden;
+        font-size: 26px;
+    }
+    a {
+        color: #fff;
+    }
+
+    .container{
+        position:relative;
+        width:100%;
+        min-height:100%;
+    }
+
+    .body{
+        padding-bottom:50px;
+    }
+
+    .footer{
+        position: absolute;  bottom: 0;
+        left:0;
+        height: 30px;
+        background: #fffdfd;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+/*# sourceMappingURL=login.css.map */

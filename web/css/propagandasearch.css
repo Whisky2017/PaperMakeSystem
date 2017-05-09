@@ -1,0 +1,41 @@
+
+.w-1000{
+	width: 1000px;
+    margin: 0 auto;
+    border:1px solid #c5101b;
+    border-top: none;
+    padding-bottom: 15px;
+}
+
+.title{
+	background-color: #e5e5e5;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 2px;
+}
+
+.list-info{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+	height: 200px;
+	font-size: 24px;
+	margin-top: 2px;
+}
+.img-con{
+	line-height: 198px;
+}
+.paga-img{
+	max-height: 195px;
+	max-width: 415px;
+}
+
+.list-info div{
+	height: 198px;
+	word-break: break-all;
+}
+.list-info div p{
+	word-break: break-all;
+	padding-top: 80px;
+}

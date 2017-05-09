@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+    <constant name="struts.multipart.maxSize" value="1048576" />
+
+    <package name="user" extends="struts-default">
+        <action name="u_login" class="com.papermaker.action.UserAction" method="login">
+            <result name="success">/manage/index.jsp</result>
+            <result name="error">/manage/login.jsp</result>
+            <result name="login">home.jsp</result>
+            <result name="input">login.jsp</result>
+        </action>
+        <action name="u_querySelf" class="com.papermaker.action.UserAction" method="queryById">
+            <result name="success">/manage/userself.jsp</result>
+            <result name="error">/manage/home.jsp</result>
+        </action>
+        <action name="u_queryAll" class="com.papermaker.action.UserAction" method="queryAll">
+            <result name="success">/manage/userlist.jsp</result>
+        </action>
+    </package>
+
+    <package name="parameterinput" extends="struts-default">
+        <action name="info_add" class="com.papermaker.action.ParameterAction" method="add">
+            <result name="success">result_success.jsp</result>
+            <result name="error">result_error.jsp</result>
+        </action>
+    </package>
+
+    <package name="paperinput" extends="struts-default">
+        <action name="paper_add" class="com.papermaker.action.PaperAction" method="add">
+            <result name="success">result_success.jsp</result>
+            <result name="error">result_error.jsp</result>
+        </action>
+    </package>
+
+    <package name="question" extends="struts-default">
+        <action name="x_queryAll" class="com.papermaker.action.PaperAction" method="choiceQueryAll">
+            <result name="success">/manage/choicelist.jsp</result>
+        </action>
+        <action name="t_queryAll" class="com.papermaker.action.PaperAction" method="completionQueryAll">
+            <result name="success">/manage/completionlist.jsp</result>
+        </action>
+        <action name="p_queryAll" class="com.papermaker.action.PaperAction" method="judgmentQueryAll">
+            <result name="success">/manage/judgmentlist.jsp</result>
+        </action>
+        <action name="h_queryAll" class="com.papermaker.action.PaperAction" method="drawQueryAll">
+            <result name="success">/manage/drawlist.jsp</result>
+        </action>
+        <action name="z_queryAll" class="com.papermaker.action.PaperAction" method="comprehensionQueryAll">
+            <result name="success">/manage/comprehensionlist.jsp</result>
+        </action>
+        <action name="s_queryAll" class="com.papermaker.action.PaperAction" method="algorithmQueryAll">
+            <result name="success">/manage/algorithmlist.jsp</result>
+        </action>
+    </package>
+
+
+
+</struts>

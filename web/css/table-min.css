@@ -1,0 +1,121 @@
+.w-1000 {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    border: 1px solid #E41C0B;
+}
+
+table,
+tr,
+td {
+    text-align: left;
+    text-indent: 8px;
+}
+
+.table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.table>tbody>tr>td {
+    border-top: none;
+}
+
+.review {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+td.first {
+    width: 20%;
+    text-align: right;
+    height: 45px;
+}
+
+.review h3 {
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 120px;
+}
+
+.review textarea {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline-block;
+    resize: none;
+    width: 700px;
+    height: 150px;
+}
+
+#preview {
+    max-width: 700px;
+}
+
+.btn {
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.span-style {
+    width: 96px;
+    font-size: 16px;
+    text-align: center;
+    height: 30px;
+}
+
+.num {
+    position: relative;
+    height: 50px;
+}
+
+.wen-num {
+    height: 40px;
+    width: 60px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-up {
+    position: absolute;
+    line-height: 0;
+    font-size: 19px;
+    width: 35px;
+    height: 18px;
+    left: 75px;
+}
+
+.btn-down {
+    position: absolute;
+    width: 35px;
+    line-height: 0;
+    font-size: 18px;
+    top: 21px;
+    height: 19px;
+    left: 75px;
+}
+
+.textarea {
+    width: 500px;
+    height: 100px;
+    resize: none;
+}
+
+.anyshow{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 1000px;
+    height: 100%;
+    background-color: #D4C8C8;
+    text-align: center;
+}
+
+.showimg{
+  margin-top: 20px;
+}

@@ -1,0 +1,85 @@
+.w-1000 {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    border: 1px solid #E41C0B;
+}
+
+table,
+tr,
+td {
+    text-align: left;
+    text-indent: 8px;
+}
+
+.table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.table>tbody>tr>td {
+    border-top: none;
+}
+
+.review {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+td.first {
+    width: 20%;
+    text-align: right;
+    height: 70px;
+    font-size: 16px;
+}
+
+td.second {
+    width: 20%;
+    text-align: right;
+    height: 90px;
+}
+
+.review h3 {
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 120px;
+}
+
+.review textarea {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline-block;
+    resize: none;
+    width: 700px;
+    height: 150px;
+}
+
+.btn {
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-red,
+.btn-cancel {
+    background-color: #c5101b;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 18px;
+    width: 150px;
+}
+
+.btn-submit {
+    background-color: #5cb85c;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 18px;
+    width: 150px;
+}

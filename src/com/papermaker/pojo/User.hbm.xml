@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.papermaker.pojo.User" table="user" schema="papermaker">
+        <id name="id" column="ID"/>
+        <property name="username" column="USERNAME"/>
+        <property name="password" column="PASSWORD"/>
+        <property name="realname" column="REALNAME"/>
+        <property name="tel" column="TEL"/>
+        <property name="email" column="EMAIL"/>
+        <property name="type" column="TYPE"/>
+        <property name="state" column="STATE"/>
+        <property name="courseid" column="COURSEID"/>
+    </class>
+</hibernate-mapping>
